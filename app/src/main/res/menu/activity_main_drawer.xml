@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_Profile"
+            android:icon="@drawable/ic_menu_change_profile"
+            android:title="Profile" />
+        <item
+            android:id="@+id/nav_Device"
+            android:icon="@drawable/ic_menu_device"
+            android:title="Device" />
+        <item
+            android:id="@+id/nav_Family"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Family" />
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Tools" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/Privacy"
+                android:icon="@drawable/ic_menu_privacy_shortcuts"
+                android:title="Privacy Shortcuts" />
+            <item
+                android:id="@+id/nav_LogOut"
+                android:icon="@drawable/ic_menu_logout"
+                android:title="Log Out" />
+        </menu>
+    </item>
+
+</menu>
